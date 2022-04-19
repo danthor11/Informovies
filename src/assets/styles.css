@@ -1,0 +1,19 @@
+body{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.spinner{
+    animation: spin 4s linear infinite;
+    
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+}
